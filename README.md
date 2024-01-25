@@ -4,8 +4,11 @@ work as expected.
 
 This demo refers to the `Dog.PHOEBE` `Enum` twice. These
 references turn out to be two separate instances. The code's
-imports aren't the cleanest, but it appears to work. No errors
-or warnings. 
+imports aren't the cleanest. But imports like these are
+common when tools help add them, or in projects with many
+developers of different skill levels.
+
+The imports appear to work. However, they're failing silently.
 
 Tested with Python 3.12.1
 
