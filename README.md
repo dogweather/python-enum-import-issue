@@ -3,7 +3,9 @@ This causes subtle bugs because `is` and `==` don't
 work as expected.
 
 This demo refers to the `Dog.PHOEBE` `Enum` twice. These
-references turn out to be two separate instances.
+references turn out to be two separate instances. The code's
+imports aren't the cleanest, but it appears to work. No errors
+or warnings. 
 
 Tested with Python 3.12.1
 
