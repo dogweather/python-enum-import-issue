@@ -13,8 +13,7 @@ Tested with Python 3.12.1
 To run the demo:
 
 ```bash
-export PYTHONPATH=src
-python src/dog_house/main.py
+PYTHONPATH=src python src/dog_house/main.py
 ```
 
 Output:
