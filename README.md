@@ -1,4 +1,4 @@
-A small demo that Enums aren't always singletons.
+A small demo that Python Enums aren't necessarily singletons.
 This facts silently causes subtle bugs because `is` and `==` don't
 work as expected.
 
