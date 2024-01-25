@@ -26,7 +26,7 @@ phoebe_1 is phoebe_2: False
 The issue seems to be when a module (here, `db.py`) is imported in different ways
 such as absolute vs. relative. Python seems to consider these different modules.
 
-Here are the three files in the demo:
+## The three files in the demo
 
 ### db.py
 
