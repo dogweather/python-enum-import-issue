@@ -8,8 +8,6 @@ imports aren't the cleanest. But imports like these are
 common when tools help add them, or in projects with many
 developers of different skill levels.
 
-The imports appear to work. However, they're failing silently.
-
 Tested with Python 3.12.1
 
 To run the demo:
