@@ -1,5 +1,5 @@
-A small demo that Python Enums aren't necessarily singletons.
-This facts silently causes subtle bugs because `is` and `==` don't
+A small demo that Python Enums aren't always singletons.
+This silently causes subtle bugs because `is` and `==` don't
 work as expected.
 
 This demo refers to the `Dog.PHOEBE` `Enum` twice. These
