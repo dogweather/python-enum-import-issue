@@ -2,6 +2,9 @@ A minimal reproducible demo that Enums aren't always singletons.
 This facts silently causes subtle bugs because `is` and `==` don't
 work as expected.
 
+This demo refers to the `Dog.PHOEBE` `Enum` twice. These
+references turn out to be two separate instances.
+
 Tested with Python 3.12.1
 
 To run the demo:
