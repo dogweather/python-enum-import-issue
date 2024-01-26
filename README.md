@@ -26,8 +26,8 @@ phoebe_1 is phoebe_2: False
 
 ---
 
-The issue seems to be when a module (here, `db.py`) is imported in different ways
-such as absolute vs. relative. Python seems to consider these different modules.
+The issue seems to be when a module (here, `db.py`) is imported in different ways. 
+Python seems to consider these different modules.
 [This S.O. post](https://stackoverflow.com/questions/40371360/imported-enum-class-is-not-comparing-equal-to-itself/40371452) seems to be right.
 
 ## The three files in the demo
